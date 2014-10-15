@@ -1,0 +1,274 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stephen Brennan's Resume
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to
+                                          % a4paper for A4
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%       TITLE SECTION
+%-------------------------------------------------------------------------------
+
+\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Stephen}{Brennan}{
+\urlstyle{same}\url{http://stephen-brennan.com} \\
+\href{mailto:stephen.brennan@case.edu}{stephen.brennan@case.edu} | 269.759.9829
+}
+
+%-------------------------------------------------------------------------------
+%       LEFT COLUMN
+%-------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education}
+
+% Hack to avoid hyphenated title.
+\subsection{Case Western Reserve}
+\subsection{University}
+
+\descript{BS in Computer Science}
+\location{Expected May 2016 | Cleveland, OH}
+Dean's High Honors (All Semesters) \\
+University Scholar \\
+National Merit Scholar \\
+\location{ Cum. GPA: 3.9 / 4.0 \\
+Major GPA: 4.0 / 4.0}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\subsection{St. Joseph High School}
+
+\location{Grad. May 2012 | St. Joseph, MI}
+Class Rank: 5\textsuperscript{th} \\
+National AP Scholar \\
+\location{ Cum. GPA: 3.975 / 4.0 }
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links}
+
+Github:// \href{https://github.com/brenns10}{\bf brenns10} \\
+Bitbucket:// \href{https://bitbucket.org/brenns10}{\bf brenns10} \\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+
+\section{Coursework}
+
+\subsection{Current}
+
+Linear Algebra \\
+Software Craftsmanship \\
+Networking
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\subsection{Completed}
+
+Operating Systems \\
+Databases \\
+Theoretical Computer Science \\
+Artificial Intelligence \\
+Algorithms \\
+Discrete Mathematics
+
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\subsection{Programming}
+
+\location{Over 5000 lines:}
+Python \textbullet{} C \textbullet{} Java  \textbullet{} \LaTeX\ \\
+\location{Over 1000 lines:}
+C++ \textbullet{} Javascript \textbullet{} PHP \\
+\location{Familiar:}
+C\# \textbullet{} SQL \textbullet{} Bash \textbullet{} HTML \textbullet{} CSS
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Technologies}
+
+NumPy/Scipy/Pandas \textbullet{} Django \textbullet{} Flask \\
+Windows Installer XML
+
+%-------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%-------------------------------------------------------------------------------
+%       RIGHT COLUMN
+%-------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Experience}
+
+\runsubsection{LECO}
+\descript{| Software Development Intern}
+
+\location{May 2013 – August 2013 | St. Joseph, MI}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Applied knowledge of C++, graph traversal algorithms, and parallel
+  computing to develop a feature in production code for the main software
+  product.
+\item Gained experience writing GPU-accelerated programs in Microsoft C++ AMP.
+\item Tested software, verified that bugs were fixed, and found new bugs.
+\item Developed Windows Installers for the company's main products.
+\item Wrote Python build scripts.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Global Mold Tech Management}
+\descript{| Webmaster}
+
+\location{June 2011 – Present | St. Joseph, MI}
+\begin{tightitemize}
+\item Self taught PHP and SQL to build secure upload and download system.
+\item Chose and implemented a file sharing service company-wide.
+\item Provided support to employees.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Research
+%------------------------------------------------
+
+\section{Research}
+
+\runsubsection{Case Western Reserve University}
+\descript{| Undergraduate Researcher}
+
+\location{May 2014 – Present | Cleveland, OH} Working with
+\textbf{\href{http://engineering.case.edu/profiles/mxk331}{Prof Mehmet
+    Koyuturk}} and \textbf{Matthew Ruffalo} to create a tool that analyzes
+binary combinations of somatic mutations in cancer patients to discover
+relationships with various phenotypes.  Using Python and the NumPy/SciPy stack.
+Results not yet published.
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Leadership
+%------------------------------------------------
+
+\section{Leadership}
+
+\runsubsection{Eta Kappa Nu}
+\descript{| Webmaster}
+
+\location{March 2014 – Present | Cleveland, OH}
+
+Created an entire new website from scratch:
+\textbf{\href{https://hkn.case.edu}{hkn.case.edu}}.  Implemented a
+professor-approved online exam archive based on student uploads.  Restricted
+upload and access rights to CWRU students through Central Authentication Service
+(CAS).  Used Python and Django framework.
+
+Elected President in Fall 2014.  Expected to take office in December 2014.
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Awards
+%------------------------------------------------
+
+\section{Awards}
+
+\begin{tabular}{rll}
+2013 & Case Alumni Association Scholarship \\
+2012 & Case Western Reserve University Scholar \\
+2012 & National Merit Scholar \\
+2012 & National AP Scholar
+\end{tabular}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Societies
+%------------------------------------------------
+
+\section{Societies}
+
+\begin{tabular}{rl}
+2014 & Eta Kappa Nu EECS Honor Society\\
+2013 & Tau Beta Pi Engineering Honor Society\\
+2010 & National Honor Society \\
+\end{tabular}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------------------------------------
+
+\end{minipage} % The end of the right column
+
+%-------------------------------------------------------------------------------
+%       SECOND PAGE (EXAMPLE)
+%-------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%-------------------------------------------------------------------------------
+
+\end{document}
